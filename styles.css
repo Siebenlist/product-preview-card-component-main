@@ -33,7 +33,7 @@ img{
 
 .info{
     padding: 25px;
-    
+    background-color: white;
 }
 
 .text > h4{
@@ -100,4 +100,33 @@ button > img{
 
 button:hover{
     background-color: hsl(158, 44%, 18%);
+}
+
+@media (min-width: 400px) {
+    .desktop{
+        display: none;
+    }
+}
+
+@media (min-width: 800px){
+    .root{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: block;
+        max-width: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .info{
+        min-width: 375px;
+        border-radius: 0 10px 10px 0;
+    }
 }
