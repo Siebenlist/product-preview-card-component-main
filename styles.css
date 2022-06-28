@@ -129,4 +129,12 @@ button:hover{
         min-width: 375px;
         border-radius: 0 10px 10px 0;
     }
+
+    .text > h4 , h1 , p {
+        padding: 30px 15px 0 10px;
+    }
+
+    .pricing{
+        padding-top: 100px;
+    }
 }
